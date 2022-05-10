@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+    color: black;
+}
+
+body.dark {
+    background-color: darkgreen;
+    color: white;
+}
+
+.pikachu {
+    width: 3rem;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#register {
+    margin-top: 3rem;
+}
+
+#register input {
+    display: block;
+}
